@@ -1,0 +1,1 @@
+onclick="addtocart(<?php echo $bookid; ?>,<?php echo $price; ?>);"

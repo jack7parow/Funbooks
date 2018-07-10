@@ -1,0 +1,128 @@
+.left-side{
+	width: 50%;
+	float: left;
+	position: relative;
+}
+.left-table{
+	width: 100%;
+	padding: 5px;
+}
+.right-side{
+	width: 50%;
+	float: right;
+	position: relative;
+}
+.right-table{
+	width: 100%;
+}
+.hoverRow{
+	padding: 5px;
+}
+.hoverRow>table, .hoverRow>th, .hoverRow>td{
+	 border: 1px solid black;
+	 padding: 1px;
+}
+.hoverRow>table{
+	border-collapse: collapse;			
+	width: 100%;
+	font-size: 20;
+	padding: 50px;
+	font-family: Comic Sans MS, Courier;
+}
+.hoverRow>tr{
+	color: black;
+}
+.hoverRow>td{
+	padding: 10px;
+}
+.hoverRow>th{
+	padding: 15px;
+	text-align: center;
+	background-color: #dc3545;
+	color: white;			
+}
+.hoverRow>tr:hover{
+	background-color:#dc3545;
+	color: black;
+}
+.add-books{
+	margin: 10px 0px;
+	padding: 5px;
+	border: 2px solid transperent;
+	background-color: #dc3545;
+	color: white;
+	font-size: 20;
+	border-radius: 3px;
+	font-family: Comic Sans MS, Courier;
+}
+.add-books:hover{
+	border: 2px solid #dc3545;
+	background-color: white;
+	color: #dc3545;
+}
+.left-button{
+	padding: 2px;
+	border: 2px solid transperent;
+	background-color: #dc3545;
+	color: white;
+	font-size: 20;
+	border-radius: 3px;
+	font-family: Comic Sans MS, Courier;
+}
+.left-button:hover{
+	border: 2px solid #dc3545;
+	background-color: white;
+	color: #dc3545;
+}
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+.portfolio-box .portfolio-box-caption {
+  color: white;
+  opacity: 0;
+  display: block;
+  background: grey;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 80%;
+  height: 100%;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  padding: 0 15px;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-size: 18px;
+}
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+.portfolio-box:focus {
+  outline: none;
+}
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: inherit;
+}
